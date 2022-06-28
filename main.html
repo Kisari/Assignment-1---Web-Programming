@@ -10,6 +10,20 @@
 </head>
 
 <body>
+  <header>
+    <div class="logo-container">
+      <img src="/src/logo.png" alt="Author name image with logo">
+    </div>
+    <div class="navigation-bar">
+      <nav>
+        <a href="/main.html">Home</a>
+        <a href="/components/cv/cv.html">CV</a>
+        <a href="/components/project/project.html">Project</a>
+        <a href="/components/blog/blog.html">Blogs</a>
+        <a href="/components/contact/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
   <main>
     <section class="section">
       <div class="container-center-col">
@@ -37,14 +51,16 @@
             <img src="/src/cv.jpg" alt="CV background">
           </div>
           <div class="left-section-content">
-            <div class="img-text">
-              <img class="img-text-background" src="/src/cv-float.jpg" alt="CV float animated background">
-              <div class="text-with-icon">
-                <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAB9ElEQVRIie2Wv2oUURSHv9/sbiHsZmfYwBLSiAkSEYyNjWiXQjGFD2BjYZ2HsbSw8QFshDxAbKyMIEZIhBTRRGa5d8YBi529x8KdkGQDO/4twv7gwnDuOec7996Bc2Cmiy5VH86515JuA9+AEiiAIzM7krQjaXs0Gm0nSfJB0vBkEjNrOeeuNRqNVTNbNbMVSX2gD7SBJtCRtNXtdu+eAnvvrWax34HNEMJzgCiKHgP3gEt1guM41rngRqPRN7PEzBIgAWJg2cxuADeBK0B0Jl8APgFvJb0DdgEPOElOkhuNRkcnwRV0zXtvdU6dpumic26j8nfObaRpujgtrvL33q8dn9h7vwssTVQ0JdHv+AN7cRwvV1e2VCf4L2kJJt/qv2kGnoFn4Bl4Bq6t5lmD9/4QyMYrBfaBvSiKdiS96XQ6X89LVBRFP4RwK4Swws9GcBnoAd3xmgSb2RdJC2NbNbKcUgihKmzXzDYru3PuqaT7ZVnW6nCSPsO4HzvnHkp6BszXCf4DpWb2JEmSl8dN3MxUFMU8MD8cDntRFC0AV8eD2ypwnen/RADem9m2pB3gYwjhsNVqDYBBu91OJQU4MXNN02AwmGs2m3fM7AHwCJgbb+XAC0mvyrLc6vV6ed2cv6w8z9ezLDvIsuwgz/P1fwa6UPoBm0bnSUIDrZsAAAAASUVORK5CYII=">
-                <span>About me</span>
+            <a href="/components/cv/cv.html">
+              <div class="img-text">
+                <img class="img-text-background" src="/src/cv-float.jpg" alt="CV float animated background">
+                <div class="text-with-icon">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAB9ElEQVRIie2Wv2oUURSHv9/sbiHsZmfYwBLSiAkSEYyNjWiXQjGFD2BjYZ2HsbSw8QFshDxAbKyMIEZIhBTRRGa5d8YBi529x8KdkGQDO/4twv7gwnDuOec7996Bc2Cmiy5VH86515JuA9+AEiiAIzM7krQjaXs0Gm0nSfJB0vBkEjNrOeeuNRqNVTNbNbMVSX2gD7SBJtCRtNXtdu+eAnvvrWax34HNEMJzgCiKHgP3gEt1guM41rngRqPRN7PEzBIgAWJg2cxuADeBK0B0Jl8APgFvJb0DdgEPOElOkhuNRkcnwRV0zXtvdU6dpumic26j8nfObaRpujgtrvL33q8dn9h7vwssTVQ0JdHv+AN7cRwvV1e2VCf4L2kJJt/qv2kGnoFn4Bl4Bq6t5lmD9/4QyMYrBfaBvSiKdiS96XQ6X89LVBRFP4RwK4Swws9GcBnoAd3xmgSb2RdJC2NbNbKcUgihKmzXzDYru3PuqaT7ZVnW6nCSPsO4HzvnHkp6BszXCf4DpWb2JEmSl8dN3MxUFMU8MD8cDntRFC0AV8eD2ypwnen/RADem9m2pB3gYwjhsNVqDYBBu91OJQU4MXNN02AwmGs2m3fM7AHwCJgbb+XAC0mvyrLc6vV6ed2cv6w8z9ezLDvIsuwgz/P1fwa6UPoBm0bnSUIDrZsAAAAASUVORK5CYII=">
+                  <span>About me</span>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div class="right-section">
@@ -58,13 +74,15 @@
               education, achievements, skills, experience. Knowing more about me so that we can work together !</p>
           </div>
           <div class="right-section-button">
-            <button>
-              <div class="right-section-icon">
-                <img
-                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACfUlEQVRoge2aPW8TQRCG582XRHO3HcKCNOn5ATYNHX8CFFGkoUA0KEKEyKEgHTWiQMl/QKKhw9R00FBAYpfe2ZVMgWCHAgdOjte+j13HHPdIJ532a+bd2blbe4+oJiDEIMaYWyLykoiuFux6AmAnTdM3VX0IIoSZvxLRtZLdT5RSm1V98AoRkQ1jzFMRuQ3gSp7BlFKFJoaZJU87AAMROU7TdB/A92lt1nydjTEHRPQQCBK0SohIi4h2jTFCRI8KdTbG9JlZrLXteW2ZWfLObpl+1toOM4sxpu9rs+KrGM8CJUnyvqiDoUmSpEf016dpeJfWNObNnrW2nVe4tbbjnJs5bpGcKyRkHs65HjPnbRvSdDkhkzMlImvMvA9gm/K/S05F5JVS6gDAj2xFmXwLEpGxI3vj60LwJvu/RiNk2YgmRERWtdZdZv6ite5prW/GskUUUQgz3wfwhIg2AbQBvM2zSyhLNCEAOpNFzrnrsezFzJHPkwUiMohlLGZEVs8ZW1n5GcteNCGj0WiPiEym6EOapq9j2YsmpNVqfQPwOFP0IpYtosjvEefcny2QiFyKaSvo7vcMZt4SkQcAds7KABxqrbcAPFdKnXsQVCV4RLTWd4noE4B7RLSeqdoYl33UWm+HthtcCIBnNDvS6wAOQ9sNvrSUUpdDj5mHZtO4bNRGSJAcKfMbO0vRfyin0UQkS4gZrUptIlIbIReW7KGXYxORLE2yB6QRsmzURkipZK+6t4rB/xmRZXjM+qhNRLxCAAyIfp++Ls6d6QyHwxvjW+85u3dpicgxEe06597lPaldAEe+innfonQB3Jl1UL8g+kR0lKZp1/ctSsOy8QtzM/vT61BBzQAAAABJRU5ErkJggg==">
-              </div>
-              <span> View CV</span>
-            </button>
+            <a href="/components/cv/cv.html">
+              <button>
+                <div class="right-section-icon">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAACfUlEQVRoge2aPW8TQRCG582XRHO3HcKCNOn5ATYNHX8CFFGkoUA0KEKEyKEgHTWiQMl/QKKhw9R00FBAYpfe2ZVMgWCHAgdOjte+j13HHPdIJ532a+bd2blbe4+oJiDEIMaYWyLykoiuFux6AmAnTdM3VX0IIoSZvxLRtZLdT5RSm1V98AoRkQ1jzFMRuQ3gSp7BlFKFJoaZJU87AAMROU7TdB/A92lt1nydjTEHRPQQCBK0SohIi4h2jTFCRI8KdTbG9JlZrLXteW2ZWfLObpl+1toOM4sxpu9rs+KrGM8CJUnyvqiDoUmSpEf016dpeJfWNObNnrW2nVe4tbbjnJs5bpGcKyRkHs65HjPnbRvSdDkhkzMlImvMvA9gm/K/S05F5JVS6gDAj2xFmXwLEpGxI3vj60LwJvu/RiNk2YgmRERWtdZdZv6ite5prW/GskUUUQgz3wfwhIg2AbQBvM2zSyhLNCEAOpNFzrnrsezFzJHPkwUiMohlLGZEVs8ZW1n5GcteNCGj0WiPiEym6EOapq9j2YsmpNVqfQPwOFP0IpYtosjvEefcny2QiFyKaSvo7vcMZt4SkQcAds7KABxqrbcAPFdKnXsQVCV4RLTWd4noE4B7RLSeqdoYl33UWm+HthtcCIBnNDvS6wAOQ9sNvrSUUpdDj5mHZtO4bNRGSJAcKfMbO0vRfyin0UQkS4gZrUptIlIbIReW7KGXYxORLE2yB6QRsmzURkipZK+6t4rB/xmRZXjM+qhNRLxCAAyIfp++Ls6d6QyHwxvjW+85u3dpicgxEe06597lPaldAEe+innfonQB3Jl1UL8g+kR0lKZp1/ctSsOy8QtzM/vT61BBzQAAAABJRU5ErkJggg==">
+                </div>
+                <span> View CV</span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -195,9 +213,10 @@
     <section class="footer-section">
       <div class="social-media-link">
         <nav>
-          <a href="">Facebook</a>
-          <a href="">Twitter</a>
-          <a href="">Linkedin</a>
+          <a href="https://www.facebook.com/profile.php?id=100007463688144">Facebook</a>
+          <a href="https://twitter.com/Minh91464685">Twitter</a>
+          <a href="https://www.linkedin.com/in/kisari-seikaku-ab573a225/">Linkedin</a>
+          <a href="https://www.reddit.com/user/Kisari5452">Reddit</a>
         </nav>
       </div>
       <p>@2022B Rmit VietNam COSC2430</p>
